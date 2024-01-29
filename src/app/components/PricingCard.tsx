@@ -12,7 +12,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ title, price, points }) => {
     <div className="bg-white p-6 rounded-lg shadow-lg text-gray-800">
       <div className="mb-4">
         <h3 className="text-2xl font-bold">{title}</h3>
-        <div className="bg-yellow-400 text-white px-4 py-1 inline-block rounded-tl-lg rounded-br-lg">
+        <div className="bg-yellow-400 text-black px-4 py-1 inline-block rounded-tl-lg rounded-br-lg">
           RS. {price} Only
         </div>
       </div>

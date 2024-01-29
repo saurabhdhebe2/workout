@@ -22,7 +22,7 @@ const PricingSection: React.FC = () => {
   ];
 
   return (
-    <section id="pricing" className="py-16 bg-gray-100 mx-10">
+    <section id="pricing" className="py-16 bg-gray-100 px-10">
       <div className="container mx-auto text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
           Pricing and Plans We Offer
